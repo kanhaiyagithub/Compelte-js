@@ -1,0 +1,6 @@
+save your name in a variable inside script tag
+Display name from the variable on the page 
+Calculate the cost of myntra bag and keep it in a variable
+show it to console
+keep gst percentage as constant 
+use eval method from math to convert string into result 

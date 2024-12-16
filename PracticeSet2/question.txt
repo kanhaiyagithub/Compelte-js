@@ -1,0 +1,9 @@
+create a button with text click
+create 2 buttons with class and id 
+create a paragraph
+add colour to two buttons 
+add proper html structure
+change the page title 
+try to copy the given design on the button 
+add script element to page to show welcome alert
+add onclick alert on add to bag and wishlist button 
