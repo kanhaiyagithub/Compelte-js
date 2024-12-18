@@ -1,0 +1,3 @@
+create a mwthod to check if a number is odd or even
+Create a method to return larger of the two number
+create method to convert Celsius to fahrenheit
