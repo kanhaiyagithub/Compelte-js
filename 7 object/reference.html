@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=5;
+        let b=a;
+        console.log(`a:${a},b:${b}`);
+         a=8;
+         console.log(`a:${a},b:${b}`);
+         let x={num:8};
+         let y=x;
+         console.log(`x:${x.num},y:${y.num}`);
+         x.num=5;
+         console.log(`x:${x.num},y:${y.num}`);
+         let p={x:'num'};
+         let q={x:'num'};
+         console.log(p==q);//it will retun false because it compare only reference not values
+         console.log(p===q);//it will also return false because it also compare only references not values
+
+         
+
+         
+         
+
+        
+    </script>
+</body>
+</html>

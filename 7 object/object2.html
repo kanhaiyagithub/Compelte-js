@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let product={
+            company:'Mango',
+            itemName:'T-shirt',
+            Price:861,
+            rating:{
+                stars:4.5,
+                noOfReviews:100,
+            },
+            displayPrice:function(){
+                return `${this.Price.toFixed(2)}`
+            }
+        };
+        let company1=product.company
+        console.log(company1);
+        let{company,Price}=product;//destructing 
+        console.log(company);
+        console.log(Price);
+        
+        
+        
+        // console.log(product.displayPrice());
+        //autoboxing
+        console.log('i am kanhaiya kumar'.toUpperCase());
+        console.log('i am kanhaiya kumar'.replace('kanhaiya','gaurav'));
+        
+        
+        
+    </script>
+</body>
+</html>
