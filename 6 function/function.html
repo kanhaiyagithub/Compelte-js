@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let age=21;
+        function printAge(){
+            console.log(`you age is ${age}`);
+            
+        }
+        printAge();
+        age=12;
+        printAge();
+        function generateRandomNumber(){
+        let random=Math.random();
+         let randomMove=random*3;
+         return randomMove;    
+        }
+        console.log(generateRandomNumber());
+        console.log(generateRandomNumber());
+        
+        function determineStatus(){
+        let age1=19 ;
+        if (age1===undefined){
+            return 'plese enter valid age'
+        }
+        let status;
+        if(age1>18){
+            status='you can drive'
+            //return 'you can drive'this will also work too 
+        }else{
+            status='you cannot drive'
+        }
+        return status;
+    }
+    console.log(determineStatus());
+    
+    function findSum(a ,b){
+    let sum=a+b;
+    return sum;
+    }
+    console.log(findSum(3,4));
+    
+
+    function greet(name='pyare'){
+     console.log(`namaste ${name} uncle`);
+    }
+    greet('titu');
+
+        
+    </script>
+</body>
+</html>
